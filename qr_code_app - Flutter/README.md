@@ -1,5 +1,3 @@
-# qr_generator
-
 # Flutter App
 
 1. Clone project 
