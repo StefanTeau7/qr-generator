@@ -1,16 +1,17 @@
 # qr_generator
 
-A new Flutter project.
+# Flutter App
 
-## Getting Started
+1. Clone project 
 
-This project is a starting point for a Flutter application.
+2. Find your IPv4 address (Flutter will not work with localhost as address):
 
-A few resources to get you started if this is your first Flutter project:
+I.Run in your terminal **ipconfig**
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Ii. Find your Internet connection and _copy your IPv4 address_
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+3. In the Flutter project, find the files _http_client_ and _qr_repository_ and replace the IPv4 address with the one you just copied 
+Note: result should look like “xxx.xxx.x.xxx:8080”
+
+4. Run in your terminal **flutter run**
